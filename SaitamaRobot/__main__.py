@@ -51,7 +51,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi Minna , my name is Uraraka Ochaco! 
+Hi {}, my name is Uraraka Ochaco! 
 I am an Anime themed group management bot.
 Build by weebs for weebs, I specialize in managing anime and similar themed groups.
 You can find my list of available commands with /help.
@@ -215,12 +215,12 @@ def start(update: Update, context: CallbackContext):
                      ],
                      [
                          InlineKeyboardButton(
-                             text="🧾 Getting started guide",
+                             text="❤Getting started guide❤",
                              url="https://t.me/OnePunchUpdates/29")
                      ],
                      [
                          InlineKeyboardButton(
-                             text="🗄 Source code",
+                             text="❤Source code❤",
                              url="https://github.com/AnimeKaizoku/SaitamaRobot")
                      ]]))
     else:
