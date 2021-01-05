@@ -58,7 +58,7 @@ You can find my list of available commands with /help.
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
+Hey there! My name is *Uraraka ochaco*.
 I'm a Hero For Fun and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
 the things I can help you with.
 
@@ -78,6 +78,7 @@ And the following:
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 SAITAMA_IMG = "https://telegra.ph/file/dc3a9b9070ee41f4c3963.jpg"
+
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
@@ -200,7 +201,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add Uraraka Ochaco to your group",
+                            text="☑️ Add Uraraka chan to your group",
                             url="t.me/urakakaachan_bot?startgroup=true".format(
                                 context.bot.username))
                     ],
